@@ -1,13 +1,34 @@
+@font-face {
+  font-family: Friend;
+  src: url(../public/fonts/Friend.otf);
+}
+@font-face {
+  font-family: Roundo;
+  src: url(../public/fonts/Roundo-Regular.otf);
+}
+@font-face {
+  font-family: Roundo-Bold;
+  src: url(../public/fonts/Roundo-SemiBold.otf);
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 120vh;
+  background-size: 150vw 150vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*:before,
+*:after {
+  font-family: Roundo;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: Roundo-Bold;
+}
+.cloudy {
+  background-image: url(/public/img/clound.jpg);
+}
+.clear {
+  background-image: url(/public/img/sunny.jpg);
 }

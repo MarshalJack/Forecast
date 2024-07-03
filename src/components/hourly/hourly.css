@@ -1,0 +1,61 @@
+.hourlyContainer {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  justify-content: space-between;
+  color: rgba(49, 49, 49, 0.7);
+  width: 100%;
+  padding: 2vh 0;
+  font-size: 1.5em;
+}
+.hourlyContainer ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.8em;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+  width: 10%;
+}
+li {
+  font-family: Roundo-Bold;
+}
+svg {
+  width: 100%;
+}
+.hourlyItems {
+  padding: 0 1vw 0 1vw;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.hourlyItem {
+  font-family: Roboto;
+  font-size: 1.2em;
+  max-width: 16%;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1vw;
+  box-shadow: 1px 1px 4px 1px rgb(184, 184, 184);
+  border-radius: 50px;
+  transition: box-shadow 0.5s linear;
+}
+.hourlyItem:hover {
+  box-shadow: 1px 1px 120px 10px rgb(184, 184, 184);
+  cursor: pointer;
+}
+.hourlyItem > img {
+  width: 60%;
+}
+.hourlyItem > h1 {
+  font-size: 2rem;
+}
+.wind {
+  display: flex;
+  justify-content: space-evenly;
+}
+.windIcon {
+  width: 20%;
+}

@@ -1,0 +1,29 @@
+.mode {
+  display: flex;
+  flex-direction: row;
+  height: 7vh;
+  color: rgba(255, 255, 255, 0.5);
+}
+.mode > div:hover {
+  cursor: pointer;
+  color: white;
+}
+.mode > div {
+  transition: all 0.5s;
+  border-bottom: 8px solid;
+  padding: 0 3%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.mode > div:nth-child(1) {
+  border-color: #f3c459;
+}
+.mode > div:nth-child(2) {
+  border-color: #99a3e4;
+}
+.clicked {
+  color: white;
+}

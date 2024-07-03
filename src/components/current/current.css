@@ -1,0 +1,50 @@
+.currentContainer {
+  margin: 4% 2% 2% 2%;
+  padding: 0 1vw;
+  height: 70vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.currentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.currentHeader h1 {
+  height: 10vh;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+}
+.currentContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+}
+.currentContent > div {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 30vh;
+}
+.currentContent > div:nth-child(1) {
+  align-items: center;
+}
+
+.currentContent img {
+  height: 70%;
+}
+.currentContent h2 {
+  font-size: 8rem;
+  margin-bottom: 0;
+}
+.currentDescr {
+  color: gray;
+  border-radius: 50px;
+  padding: 1%;
+}
